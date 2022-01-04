@@ -1,3 +1,5 @@
+// WRITE A FUNCTION THAT PASSES ANY STRING TO CAMELCASE
+
 function toCamelCase(str){
   
   const noDash = str.split('-');

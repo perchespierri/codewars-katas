@@ -1,7 +1,10 @@
+// WRITE A FUNCTION THAT RETURNS WETHER A NUMBER IS OR ISN'T
+// A NARCISSIST (meaning 153 = 1³ + 5³ + 3³)
+
 function narcissistic(value) {
   function splitToDigit(n){
-    return [...n + ''].map(Number) // [ '1', '0', '0' ] into [ 1, 0, 0]
-  }
+    return [...`${n}`].map(Number);
+  };
   const splitNarcissist = splitToDigit(value);
   const powerTo = splitNarcissist.length;
   const elevatedNumbers =
@@ -11,5 +14,5 @@ function narcissistic(value) {
 }
 
 // Testing:
-console.log(narcissistic(153)) // TRUE
-console.log(narcissistic(1652)) // FALSE
+console.log(narcissistic(153)); // TRUE
+console.log(narcissistic(1652)); // FALSE
