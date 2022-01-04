@@ -16,10 +16,10 @@ function toCamelCase(str){
   return finalStr.join('');
 }
 
+// Testing:
 console.log(
   toCamelCase('hello_wait-bye')
 );
-
 
 // I solved it without regex.
 // An example using it:
@@ -28,6 +28,7 @@ function toCamelCase(str){
   return str.replace(/[^a-z]./gi, word => word.toUpperCase().slice(-1))
 }
 
+// Testing:
 console.log(
   toCamelCase('hello_wait-bye')
 );
