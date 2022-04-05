@@ -1,3 +1,12 @@
-## My Katas for codewars.com
+# My Katas from codewars.com
 
-Every few days I've been trying to solve a different coding challenge
+Every time I can I've been trying to solve a different coding challenge in codewars.
+
+## Reading their names:
+Every kata here is named after:
+- The order in which I solved it
+- What is the most important thing I learned or reviewed solving it
+
+## What's inside the files:
+Commented out are the katas instructions.
+Right after that, the solution.

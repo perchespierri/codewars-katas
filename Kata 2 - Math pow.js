@@ -2,14 +2,15 @@
 // A NARCISSIST (meaning 153 = 1³ + 5³ + 3³)
 
 function narcissistic(value) {
-  function splitToDigit(n){
+  function splitToDigit(n) {
     return [...`${n}`].map(Number);
-  };
+  }
   const splitNarcissist = splitToDigit(value);
   const powerTo = splitNarcissist.length;
-  const elevatedNumbers =
-    splitNarcissist.map(element => Math.pow(element, powerTo));
-  const finalSum = elevatedNumbers.reduce(((acc, val) => acc + val), 0);
+  const elevatedNumbers = splitNarcissist.map((element) =>
+    Math.pow(element, powerTo)
+  );
+  const finalSum = elevatedNumbers.reduce((acc, val) => acc + val, 0);
   return finalSum === value;
 }
 
