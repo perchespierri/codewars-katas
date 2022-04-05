@@ -3,8 +3,8 @@
 Every time I can I've been trying to solve a different coding challenge in codewars.
 
 ## Reading their names:
-Every kata here is named after:\
-- The order in which I solved it\
+Every kata here is named after:
+- The order in which I solved it
 - What is the most important thing I learned or reviewed solving it
 
 ## What's inside the files:
