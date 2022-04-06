@@ -30,6 +30,8 @@ function solutionTwo(str) {
   return `${str}_`.match(/.{2}/g) || [];
 }
 
+// or: const solution = str => ((str+"_").match(/../g)||[]);
+
 // Explanation:
 // 1. (str+'_')
 //  -> means add _ in s or string
