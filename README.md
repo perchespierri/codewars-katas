@@ -10,3 +10,6 @@ Every kata here is named after:
 ## What's inside the files:
 Commented out are the katas instructions.
 Right after that, the solution.
+
+## Why so many comments? Yuck:
+- Get over yourself. This repository if sor study purposes.
